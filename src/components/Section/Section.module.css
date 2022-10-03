@@ -1,0 +1,15 @@
+.section {
+    padding: 10px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: bisque;
+    /* width: 100%; */
+}
+
+.sectionTitle {
+    margin-bottom: 10px;
+    color: brown;
+}
