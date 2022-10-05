@@ -64,9 +64,9 @@ return (
 ></Feedback>
 </Section>
 <Section title="Statistics">
-  {feedbackSum === 0 ? (
-<Notification message="There is no feedback" />
-  ) : (
+      {!Boolean(feedbackSum) &&
+        <Notification message="There is no feedback" />}
+{Boolean(feedbackSum) && (
 <Statistics
   good={good}
   neutral={neutral}
